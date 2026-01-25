@@ -256,27 +256,15 @@ body{
     margin: 80px 200px 120px 200px;
 }
 
-.hero-main-4{
-    width: 1600px;
-    height: 1276px;
-    background-color: #1A0B2E;
-}
-
 
 .episodes-section {
-  background-color: #0f0524;
+  background-color: #1A0B2E;
   padding: 120px 200px;
   text-align: center;
-  
+   width: 1200px;
+    height: 1000px;
   font-family:"Inter", sans-serif;
 }
-
-.episodes-section{
-    width: 1200px;
-    height: 1200px;
-    
-}
-
 
 .section-title {
   color: #ffffff;
@@ -296,18 +284,20 @@ body{
 }
 
 .card {
-  background-color: #1d0f3d;
+  background-color: #250D44;
   width: 350px;
   border-radius: 20px;
   overflow: hidden;
   text-align: left;
   transition: transform 0.3s ease;
+  margin-right: 25px;
   margin-bottom: 120px;
 }
 
 .card-header {
   position: relative;
   height: 200px;
+   margin-bottom: 20px;
 }
 
 .card-header img {
@@ -318,18 +308,18 @@ body{
 
 .play-button {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 54%;
   transform: translate(-50%, -50%);
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  width: 75px;
+  height: 75px;
+  background:linear-gradient(rgba(247, 233, 63,1),rgba(251, 9, 180, 1),rgba(145,0,248,1));
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 30px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
@@ -338,24 +328,33 @@ body{
 }
 
 .card-body h3 {
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 0;
-  font-size: 1.3rem;
-  line-height: 1.4;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: "Inter",sans-serif;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
 .card-body p {
-  color: #b0a3c7;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Inter",sans-serif;
+  margin-bottom: 12px;
+  opacity: 60%;
 }
 
 .card-footer {
-  color: #00ffaa;
+  color: #00FF88;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 16px;
+  line-height: 24px;
   display: flex;
+  font-family: "Inter",sans-serif;
   align-items: center;
   gap: 8px;
 }
@@ -370,6 +369,7 @@ body{
   gap: 30px;
   max-width: 1200px;
   color: white;
+  margin-bottom: 120px;
 }
 
 .image-container img {
@@ -423,6 +423,14 @@ body{
 
 .social-icons a:hover {
   background: #4a2b7a;
+}
+
+
+.last{
+    width: 1600px;
+    height: auto;
+    border: 1px solid red;
+    background-image: url("../assets/footer-bg.png");
 }
 
 
