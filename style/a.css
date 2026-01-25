@@ -428,10 +428,74 @@ body{
 
 .last{
     width: 1600px;
-    height: auto;
-    border: 1px solid red;
+    height: 412px;
     background-image: url("../assets/footer-bg.png");
 }
+
+
+.navbar-container {
+  background: linear-gradient(180deg, #1a0633 0%, #0d031a 100%);
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('waves-bg.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 62px 20px;
+}
+
+.logo span {
+      font-family: 'Inter',sans-serif;
+      font-weight: bold;
+      background: linear-gradient(rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.social-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter",sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: -40px 20px ;
+  opacity: 70%;
+  margin-bottom: 12px;
+  
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 60%;
+  font-family: "Inter",sans-serif;
+}
+
 
 
 
