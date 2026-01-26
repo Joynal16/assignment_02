@@ -306,22 +306,7 @@ body{
   object-fit: cover;
 }
 
-.play-button {
-  position: absolute;
-  top: 55%;
-  left: 54%;
-  transform: translate(-50%, -50%);
-  width: 75px;
-  height: 75px;
-  background:linear-gradient(rgba(247, 233, 63,1),rgba(251, 9, 180, 1),rgba(145,0,248,1));
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 30px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-}
+
 
 .card-body {
   padding: 24px;
